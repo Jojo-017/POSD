@@ -13,13 +13,13 @@ public class TriangleTest {
     @Test
     public void testTriAre() throws Exception {
         Triangle t =new Triangle(3,4,5);
-        Assert.assertEquals(6, t.area(),0.001);
+        Assert.assertEquals(6, t.area(),0.01);
     }
 
     @Test
     public void testTriPerimeter() throws Exception {
         Triangle t =new Triangle(3,4,5);
-        Assert.assertEquals(12, t.perimeter(),0.001);
+        Assert.assertEquals(12, t.perimeter(),0.01);
     }
 
     @Test

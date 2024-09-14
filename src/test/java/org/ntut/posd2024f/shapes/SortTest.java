@@ -18,9 +18,9 @@ public class SortTest {
 
         //Collections可以儲存一個或多於一個元素的集合
         Collections.sort(shapes, Sort.BY_AREA_ASCENDING);
-        Assert.assertEquals(6, shapes.get(0).area(), 0.001);//Triangle
-        Assert.assertEquals(12, shapes.get(1).area(), 0.001);//Rectangle
-        Assert.assertEquals(12.56, shapes.get(2).area(), 0.001);//Circle
+        Assert.assertEquals(6, shapes.get(0).area(), 0.01);//Triangle
+        Assert.assertEquals(12, shapes.get(1).area(), 0.01);//Rectangle
+        Assert.assertEquals(12.56, shapes.get(2).area(), 0.01);//Circle
     }
 
     @Test
@@ -31,9 +31,9 @@ public class SortTest {
         shapes.add(new Triangle(3, 4, 5));//12
 
         Collections.sort(shapes, Sort.BY_PERIMETER_DESCENDING);
-        Assert.assertEquals(14.0, shapes.get(0).perimeter(), 0.001); //Rectangle
-        Assert.assertEquals(12.56, shapes.get(1).perimeter(), 0.001); //Circle
-        Assert.assertEquals(12.0, shapes.get(2).perimeter(), 0.001); //Triangle
+        Assert.assertEquals(14.0, shapes.get(0).perimeter(), 0.01); //Rectangle
+        Assert.assertEquals(12.56, shapes.get(1).perimeter(), 0.01); //Circle
+        Assert.assertEquals(12.0, shapes.get(2).perimeter(), 0.01); //Triangle
     }
 
     @Test

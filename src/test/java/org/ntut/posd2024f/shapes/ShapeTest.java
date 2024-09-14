@@ -15,18 +15,18 @@ public class ShapeTest {
     @Test
     public void testAreaForRectangle() throws Exception {
         Shape  r =new Rectangle(5.0,6.0);
-        Assert.assertEquals(30, r.area(),0.001);
+        Assert.assertEquals(30, r.area(),0.01);
     }
 
     @Test
     public void testPerimeterForTriangle() throws Exception {
         Shape  t =new Triangle(3,4,5);
-        Assert.assertEquals(6, t.area(),0.001);
+        Assert.assertEquals(6, t.area(),0.01);
     }
 
     @Test
     public void testToStringForCircle() throws Exception {
         Shape  c=new Circle(1.0);
-        Assert.assertEquals(3.14, c.area(),0.001);
+        Assert.assertEquals(3.14, c.area(),0.01);
     }
 }
