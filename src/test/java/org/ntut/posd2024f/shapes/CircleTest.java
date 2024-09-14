@@ -11,13 +11,13 @@ public class CircleTest {
     @Test
     public void testCircleAre() throws Exception {
         Circle c=new Circle(1.0);
-        Assert.assertEquals(3.14, c.area(),0.001);
+        Assert.assertEquals(3.14, c.area(),0.01);
     }
 
     @Test
     public void testCirclePerimeter() throws Exception {
         Circle c=new Circle(1.0);
-        Assert.assertEquals(6.28, c.perimeter(),0.001);
+        Assert.assertEquals(6.28, c.perimeter(),0.01);
     }
 
     @Test

@@ -1,7 +1,7 @@
 package org.ntut.posd2024f.shapes;
 
 public class Circle implements Shape {
-    private final double PI=3.14;
+    private final double PI=3.14159265359;
     private double r;
 
     public Circle(double radius) throws Exception {
