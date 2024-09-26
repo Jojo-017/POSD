@@ -8,6 +8,12 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 public class RectangleTest {
+
+    @Test(expected = Exception.class)//測試是否會拋出我們預期的Exception。
+    public void testRecException() throws Exception {
+        Rectangle r =new Rectangle(-5.0,6.0);
+    }
+
     @Test
     public void testRecAre() throws Exception {
         Rectangle r =new Rectangle(5.0,6.0);

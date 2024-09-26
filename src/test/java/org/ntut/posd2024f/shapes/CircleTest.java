@@ -8,11 +8,19 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 public class CircleTest {
+
+    @Test(expected = Exception.class)//測試是否會拋出我們預期的Exception。
+    public void testCircleException() throws Exception {
+        Circle c=new Circle(-1);
+    }
+
     @Test
     public void testCircleAre() throws Exception {
         Circle c=new Circle(1.0);
         Assert.assertEquals(3.14, c.area(),0.01);
     }
+
+
 
     @Test
     public void testCirclePerimeter() throws Exception {

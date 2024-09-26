@@ -10,6 +10,13 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 public class TriangleTest {
+
+    @Test(expected = Exception.class)//測試是否會拋出我們預期的Exception。
+    public void testTriException() throws Exception {
+        Triangle t =new Triangle(-3,4,5);
+    }
+
+
     @Test
     public void testTriAre() throws Exception {
         Triangle t =new Triangle(3,4,5);
