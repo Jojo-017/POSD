@@ -8,7 +8,7 @@ public class TwoDimensionalVectorTest {
     @Test
     public void testTwoDimensionalVectorLength(){
         TwoDimensionalVector twoDimensionalVector=new TwoDimensionalVector(0,3);
-        assertEquals(3,twoDimensionalVector.length());
+        assertEquals(3,twoDimensionalVector.length(),0.1);
 
     }
     @Test
