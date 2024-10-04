@@ -1,26 +1,12 @@
 package org.ntut.posd2024f.shapes;
 
 public class Circle implements Shape {
-    private final double PI=3.14159265359;
-    private double r;
-
-    public Circle(double radius) throws Exception {
-        if (radius <= 0) {
-            throw new Exception("It's not a circle!");
-        }
-        this.r=radius;
+    public Circle(double radius) {
     }
 
     public double area() {
-        //return 1;
-        return PI*r*r;
     } 
 
     public double perimeter() {
-        return 2*PI*r;
-    }
-
-    public String toString() {
-       return "Circle " + r;
     }
 }
