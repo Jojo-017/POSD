@@ -1,10 +1,16 @@
 package org.ntut.posd2024f.shapes;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
 public class CompoundShape implements Shape { //包含多個形狀
     private final List<Shape> shapes;
+
+    public CompoundShape() {
+        this.shapes = new ArrayList<>();
+    }
+
     public CompoundShape(List<Shape> shapes) {
         this.shapes=shapes;
     }
@@ -33,6 +39,8 @@ public class CompoundShape implements Shape { //包含多個形狀
     @Override
     public Iterator<Shape> iterator() {
         //該方法應返回一個迭代器，能遍歷CompoundShape中的元素。
-        return shapes.iterator();
+        return new CompoundShapeIterator(shapes);
     }
+
+
 }
