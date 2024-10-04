@@ -5,13 +5,14 @@ import java.util.List;
 public class ConvexPolygon implements Shape {
     //該形狀由一組向量組成，這些向量需要按順時針或逆時針排序
     //如果未排序的話，應該拋出ShapeException異常。
-    private List<TwoDimensionalVector> vectors;
+    private final List<TwoDimensionalVector> vectors;
 
     public ConvexPolygon(List<TwoDimensionalVector> vectors)throws ShapeException {
         if (!isConvex(vectors)) {
             throw new ShapeException("It's not a convex polygon!");
         }
         this.vectors = vectors;
+
     }
 
     // 檢查向量是否按順時針或逆時針排序
@@ -21,24 +22,22 @@ public class ConvexPolygon implements Shape {
             return false; // 少於3個點無法構成多邊形
         }
 
-        boolean flag = false;
+        int crossProduct = 0;
         for (int i = 0; i < n; i++) {
             TwoDimensionalVector v1 = vectors.get(i);
             TwoDimensionalVector v2 = vectors.get((i + 1) % n);
             TwoDimensionalVector v3 = vectors.get((i + 2) % n);
 
-            // 計算v1v2和v2v3的cross product來判斷方向
-            TwoDimensionalVector v1v2 = v2.subtract(v1);
-            TwoDimensionalVector v2v3 = v3.subtract(v2);
-            int crossProduct = v1v2.cross(v2v3);
+            int cross = v2.subtract(v1).cross(v3.subtract(v2));
 
-            if (i == 0) {
-                flag = crossProduct > 0;
-            } else if (flag != (crossProduct > 0)) {
-                return false; // 如果cross product符號不同，return false
+            if (crossProduct == 0) {
+                crossProduct = cross;
+            } else if (crossProduct * cross < 0) { // 若方向改變，則不是凸多邊形
+                return false;
             }
         }
         return true;
+
     }
 
     public double area() {
