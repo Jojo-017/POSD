@@ -1,0 +1,94 @@
+package org.ntut.posd2024f.shapes;
+
+import java.util.Iterator;
+import java.util.List;
+
+public class PrettyPrintVisitor implements Visitor<String>{
+    private StringBuffer sb=new StringBuffer();
+   // private final String indent="  ";
+    private int indentCount=0;
+
+    public StringBuffer dealWithIndent(StringBuffer sb,int indentCount){
+        for (int i = 0; i < indentCount; ++i)
+        {
+            sb.append("  ");
+        }
+        return sb;
+    }
+
+    @Override
+    public void visitCircle(Circle circle) {
+        sb=dealWithIndent(sb,indentCount);
+        sb.append(circle.toString());
+    }
+
+    @Override
+    public void visitRectangle(Rectangle rectangle) {
+        sb=dealWithIndent(sb,indentCount);
+        sb.append(rectangle.toString());
+    }
+
+    @Override
+    public void visitTriangle(Triangle triangle) {
+        sb=dealWithIndent(sb,indentCount);
+        sb.append(triangle.toString());
+    }
+
+    @Override
+    public void visitConvexPolygon(ConvexPolygon convexPolygon) {
+        sb=dealWithIndent(sb,indentCount);
+        sb.append("ConvexPolygon");
+        //append(convexPolygon.getVectors().toString()).append("\n");
+        for (TwoDimensionalVector td : convexPolygon.getVectors()) {
+            sb.append(" ").append(td.toString());
+        }
+
+    }
+
+    @Override
+    public void visitCompoundShape(CompoundShape compoundShape) {
+        sb=dealWithIndent(sb,indentCount);
+        sb.append("CompoundShape {");
+        indentCount++;
+        for (Iterator<Shape> it = compoundShape.iterator(); it.hasNext(); )  {
+            sb.append("\n");
+            Shape shape = it.next();
+            shape.accept(this);
+            if(!it.hasNext())sb.append("\n");
+        }
+        indentCount--;
+        sb.append("}");
+    }
+
+    @Override
+    public void visitTextedShape(TextedShape textedShape) {
+        sb=dealWithIndent(sb,indentCount);
+        //, text: Hello
+        sb.append(textedShape.getShape().toString()).append(", text: ").append(textedShape.getText());
+    }
+
+    @Override
+    public void visitColoredShape(ColoredShape coloredShape) {
+        sb=dealWithIndent(sb,indentCount);
+        switch (coloredShape.getColor()) {
+            case "RED":
+                sb.append("\\033[0;31m");
+                break;
+            case "GREEN":
+                sb.append("\\033[0;32m");
+                break;
+            case "BLUE":
+                sb.append("\\033[0;34m");
+                break;
+            default:
+                sb.append("\\033[0m");
+                break;
+        }
+        sb.append(coloredShape.getShape().toString()).append("\\033[0m");
+    }
+
+    @Override
+    public String getResult() {
+       return sb.toString();
+    }
+}
