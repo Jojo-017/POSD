@@ -64,8 +64,10 @@ public class ColoredShapeTest {
         compoundShape.add(rectangle);
 
         Assertions.assertEquals(3.14159 + 6.0, compoundShape.area(), 0.0001); // 確認面積計算
-        Assertions. assertEquals(2 * Math.PI * 1.0 + 10.0, compoundShape.perimeter(), 0.0001); // 確認周長計算
+        Assertions.assertEquals(2 * Math.PI * 1.0 + 10.0, compoundShape.perimeter(), 0.0001); // 確認周長計算
     }
+
+
 
     @Test
     public void testAcceptVisitorForColoredCompoundShape() {

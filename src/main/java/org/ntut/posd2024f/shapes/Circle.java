@@ -1,5 +1,7 @@
 package org.ntut.posd2024f.shapes;
 
+import java.util.Iterator;
+
 public class Circle implements Shape {
     private final double PI=Math.PI;
     private double r;
@@ -10,6 +12,8 @@ public class Circle implements Shape {
         }
         this.r=radius;
     }
+
+
     @Override
     public double area() {
         return PI*r*r;
