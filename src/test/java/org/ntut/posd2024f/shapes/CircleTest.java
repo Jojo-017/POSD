@@ -1,7 +1,8 @@
 package org.ntut.posd2024f.shapes;
 
-import org.junit.Assert;
+
 import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
 
 public class CircleTest {
 
@@ -13,7 +14,7 @@ public class CircleTest {
     @Test
     public void testCircleAre() throws Exception {
         Circle c=new Circle(1.0);
-        Assert.assertEquals(3.14, c.area(),0.01);
+        Assertions.assertEquals(3.14, c.area(),0.01);
     }
 
 
@@ -21,7 +22,14 @@ public class CircleTest {
     @Test
     public void testCirclePerimeter() throws Exception {
         Circle c=new Circle(1.0);
-        Assert.assertEquals(6.28, c.perimeter(),0.01);
+        Assertions.assertEquals(6.28, c.perimeter(),0.01);
+    }
+
+
+    @Test
+    public void testCircleToString(){
+        Circle circle=new Circle(1.0);
+        Assertions.assertEquals("Circle 1.0",circle.toString());
     }
 
 

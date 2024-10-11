@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Assertions;
 
 public class TriangleTest {
     @Test(expected = Exception.class)//測試是否會拋出我們預期的Exception。
@@ -31,7 +31,7 @@ public class TriangleTest {
         vectors.add(v2);
         vectors.add(v3);
         Triangle triangle=new Triangle(vectors);
-        Assert.assertEquals(12,triangle.perimeter(),0.01);
+        Assertions.assertEquals(12,triangle.perimeter(),0.01);
 
     }
     @Test
@@ -44,7 +44,7 @@ public class TriangleTest {
         vectors.add(v2);
         vectors.add(v3);
         Triangle triangle=new Triangle(vectors);
-        Assert.assertEquals(6,triangle.area(),0.01);
+        Assertions.assertEquals(6,triangle.area(),0.01);
 
     }
 }

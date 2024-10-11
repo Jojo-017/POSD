@@ -32,4 +32,8 @@ public class TwoDimensionalVector {//代表2D空間向量的類，包含x和y兩
     public int getY() {
         return y;
     }
+    @Override
+    public String toString() {
+        return "["+x+","+y+"]";
+    }
 }

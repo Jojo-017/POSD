@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Assertions;
 
 public class ConvexPolygonTest {
     @Test
@@ -21,7 +21,7 @@ public class ConvexPolygonTest {
         vectors.add(v4);
 
         ConvexPolygon convexPolygon=new ConvexPolygon(vectors);
-        assertEquals(48,convexPolygon.area(),0.01);
+        Assertions.assertEquals(48,convexPolygon.area(),0.01);
 
 
     }
@@ -39,7 +39,7 @@ public class ConvexPolygonTest {
         vectors.add(v4);
 
         ConvexPolygon convexPolygon=new ConvexPolygon(vectors);
-        assertEquals(28,convexPolygon.perimeter(),0.01);
+        Assertions.assertEquals(28,convexPolygon.perimeter(),0.01);
 
 
     }

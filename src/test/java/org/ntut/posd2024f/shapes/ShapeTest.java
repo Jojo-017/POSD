@@ -2,6 +2,7 @@ package org.ntut.posd2024f.shapes;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,10 +10,23 @@ import java.util.List;
 public class ShapeTest {
     //因為Shape是抽象類別，無法直接用，所以用子類別來測試他的通用。
 
+    @Test(expected = Exception.class)//測試是否會拋出我們預期的Exception。
+    public void testShapeException() throws Exception {
+        Shape  shape =new Rectangle(5.0,6.0);
+        shape.add(shape);
+    }
+
+    @Test
+    public void testShapeNullIterator() throws Exception {
+        Shape  shape =new Rectangle(5.0,6.0);
+        Assertions.assertFalse(shape.iterator().hasNext());
+
+    }
+
     @Test
     public void testAreaForRectangle() throws Exception {
         Shape  r =new Rectangle(5.0,6.0);
-        Assert.assertEquals(30, r.area(),0.01);
+        Assertions.assertEquals(30, r.area(),0.01);
     }
 
     @Test
@@ -25,12 +39,12 @@ public class ShapeTest {
         vectors.add(v2);
         vectors.add(v3);
         Shape  t =new Triangle(vectors);
-        Assert.assertEquals(6, t.area(),0.01);
+        Assertions.assertEquals(6, t.area(),0.01);
     }
 
     @Test
     public void testToStringForCircle() throws Exception {
         Shape  c=new Circle(1.0);
-        Assert.assertEquals(3.14, c.area(),0.01);
+        Assertions.assertEquals(3.14, c.area(),0.01);
     }
 }

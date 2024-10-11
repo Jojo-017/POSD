@@ -2,13 +2,13 @@ package org.ntut.posd2024f.shapes;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.Assertions;
 
 public class NullIteratorTest {
     @Test
     public void testNullIteratorHasNext(){
         NullIterator nullIterator=new NullIterator();
-        assertEquals(false,nullIterator.hasNext());
+        Assertions.assertFalse(nullIterator.hasNext());
     }
 
     @Test(expected = Exception.class)

@@ -14,7 +14,7 @@ public class CompoundShape implements Shape { //包含多個形狀
     public CompoundShape(List<Shape> shapes) {
         this.shapes=shapes;
     }
-    
+    @Override
     public double area() {//計算列表中所有形狀的總面積
         double all=0;
         for(Shape shape:shapes){
@@ -22,7 +22,7 @@ public class CompoundShape implements Shape { //包含多個形狀
         }
         return all;
     }
-
+    @Override
     public double perimeter() {//計算列表中所有形狀的總周長
         double all=0;
         for(Shape shape:shapes){
@@ -39,7 +39,13 @@ public class CompoundShape implements Shape { //包含多個形狀
     @Override
     public Iterator<Shape> iterator() {
         //該方法應返回一個迭代器，能遍歷CompoundShape中的元素。
-        return new CompoundShapeIterator(shapes);
+        return shapes.iterator();
+        //return new CompoundShapeIterator(shapes);
+    }
+
+    @Override
+    public <T> void accept(Visitor<T> visitor) {
+        visitor.visitCompoundShape(this);
     }
 
 

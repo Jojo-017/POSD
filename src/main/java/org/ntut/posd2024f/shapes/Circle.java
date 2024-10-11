@@ -10,12 +10,27 @@ public class Circle implements Shape {
         }
         this.r=radius;
     }
-
+    @Override
     public double area() {
         return PI*r*r;
-    } 
-
+    }
+    @Override
     public double perimeter() {
         return 2*PI*r;
     }
+
+    @Override
+    public <T> void accept(Visitor<T> visitor) {
+        visitor.visitCircle(this);  // 接受訪問，讓訪問者來做事
+    }
+
+    public double getRadius() {
+        return r;
+    }
+
+    @Override
+    public String toString() {
+        return "Circle " + r;
+    }
+
 }

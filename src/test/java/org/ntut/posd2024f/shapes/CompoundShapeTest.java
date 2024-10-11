@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Assertions;
 
 public class CompoundShapeTest {
     @Test
@@ -24,7 +24,7 @@ public class CompoundShapeTest {
         shapes.add(new Triangle(vectors));//6
 
         CompoundShape compoundShape=new CompoundShape(shapes);
-        assertEquals(30.56,compoundShape.area(),0.01);
+        Assertions.assertEquals(30.56,compoundShape.area(),0.01);
 
     }
 
@@ -43,7 +43,7 @@ public class CompoundShapeTest {
         shapes.add(new Triangle(vectors));//12
 
         CompoundShape compoundShape=new CompoundShape(shapes);
-        assertEquals(38.56,compoundShape.perimeter(),0.01);
+        Assertions.assertEquals(38.56,compoundShape.perimeter(),0.01);
 
     }
     @Test
@@ -65,10 +65,10 @@ public class CompoundShapeTest {
         compoundShape.add(circle);//12.56
 
         Iterator<Shape> iterator = compoundShape.iterator();
-        assertTrue(iterator.hasNext());
-        assertEquals(triangle, iterator.next());
-        assertEquals(rectangle, iterator.next());
-        assertEquals(circle, iterator.next());
-        assertFalse(iterator.hasNext());
+        Assertions.assertTrue(iterator.hasNext());
+        Assertions.assertEquals(triangle, iterator.next());
+        Assertions.assertEquals(rectangle, iterator.next());
+        Assertions.assertEquals(circle, iterator.next());
+        Assertions.assertFalse(iterator.hasNext());
     }
 }

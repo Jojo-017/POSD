@@ -2,6 +2,10 @@ package org.ntut.posd2024f.shapes;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+//import org.junit.jupiter.api.Assertions;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class RectangleTest {
 
@@ -13,13 +17,13 @@ public class RectangleTest {
     @Test
     public void testRecAre() throws Exception {
         Rectangle r =new Rectangle(5.0,6.0);
-        Assert.assertEquals(30, r.area(),0.01);
+        Assertions.assertEquals(30, r.area(),0.01);
     }
 
     @Test
     public void testRecPerimeter() throws Exception {
         Rectangle r =new Rectangle(5.0,6.0);
-        Assert.assertEquals(22, r.perimeter(),0.01);
+        Assertions.assertEquals(22, r.perimeter(),0.01);
     }
 
 
