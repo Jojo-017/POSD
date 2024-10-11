@@ -4,36 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceeff082-9da8-49c7-a15b-47d0ff867559" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/posd2024f_113598082_hw2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Circle.java" afterDir="false" />
+    <list default="true" id="ceeff082-9da8-49c7-a15b-47d0ff867559" name="Changes" comment="1011_HW3_1st">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/CompoundShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/CompoundShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/CompoundShapeIterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/ConvexPolygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/ConvexPolygon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Geo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Geo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/InputOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/InputOutput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/NullIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/NullIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/ShapeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/ShapeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/TwoDimensionalVector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/TwoDimensionalVector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/CircleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/CompoundShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/CompoundShapeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/ConvexPolygonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/ConvexPolygonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/NullIteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/NullIteratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/RectangleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/ShapeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/SortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/TriangleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/TwoDimensionalVectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/TwoDimensionalVectorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/triangle_example.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,38 +24,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.CircleTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ColoredShapeTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ColoredShapeTest.testGetAreaAndPerimeter.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ColoredShapeTest.testGetColor.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ColoredShapeTest.testGetShape.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ColoredShapeTest.testIterator.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CompoundShapeTest.TestCompoundShapeArea.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CompoundShapeTest.TestCompoundShapePerimeter.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CompoundShapeTest.testCompoundShapeIterator.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ConvexPolygonTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FindShapeVisitorTest.testFindShapeWithAreaEquals.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.NullIteratorTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeBlue.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeGreen.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeRed.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintCompoundShape.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintEmptyCompoundShape.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintRectangle.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintTextedShape.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ShapeTest.testShapeException.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ShapeTest.testShapeNullIterator.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CircleTest.executor": "Run",
+    "JUnit.ColoredShapeTest.executor": "Run",
+    "JUnit.ColoredShapeTest.testGetAreaAndPerimeter.executor": "Run",
+    "JUnit.ColoredShapeTest.testGetColor.executor": "Run",
+    "JUnit.ColoredShapeTest.testGetShape.executor": "Run",
+    "JUnit.ColoredShapeTest.testIterator.executor": "Run",
+    "JUnit.CompoundShapeTest.TestCompoundShapeArea.executor": "Run",
+    "JUnit.CompoundShapeTest.TestCompoundShapePerimeter.executor": "Run",
+    "JUnit.CompoundShapeTest.executor": "Run",
+    "JUnit.CompoundShapeTest.testCompoundShapeIterator.executor": "Run",
+    "JUnit.ConvexPolygonTest.executor": "Run",
+    "JUnit.FindShapeVisitorTest.executor": "Run",
+    "JUnit.FindShapeVisitorTest.testFindShapeWithAreaEquals.executor": "Run",
+    "JUnit.NullIteratorTest.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeBlue.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeGreen.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeRed.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.testPrettyPrintCompoundShape.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.testPrettyPrintEmptyCompoundShape.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.testPrettyPrintRectangle.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.testPrettyPrintTextedShape.executor": "Run",
+    "JUnit.RectangleTest.executor": "Run",
+    "JUnit.ShapeTest.executor": "Run",
+    "JUnit.ShapeTest.testShapeException.executor": "Run",
+    "JUnit.ShapeTest.testShapeNullIterator.executor": "Run",
+    "JUnit.SortTest.executor": "Run",
+    "JUnit.TextedShapeTest.executor": "Run",
+    "JUnit.TextedShapeTest.testAcceptVisitor.executor": "Run",
+    "JUnit.TriangleTest.executor": "Run",
+    "JUnit.TwoDimensionalVectorTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.TwoDimensionalVectorTest">
     <configuration name="ShapeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shapes" />
@@ -180,6 +161,19 @@
       <option name="presentableId" value="Default" />
       <updated>1728650877575</updated>
     </task>
+    <task id="LOCAL-00001" summary="1011_HW3_1st">
+      <option name="closed" value="true" />
+      <created>1728659202867</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728659202867</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1011_HW3_1st" />
+    <option name="LAST_COMMIT_MESSAGE" value="1011_HW3_1st" />
   </component>
 </project>
