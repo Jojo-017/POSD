@@ -98,7 +98,7 @@ public class PrettyPrintVisitorTest {
 
         coloredCircle.accept(visitor);
 
-        Assertions.assertEquals("\\033[0;31mCircle 1.0\\033[0m", visitor.getResult()); // 紅色
+        Assertions.assertEquals("\033[0;31mCircle 1.0\033[0m", visitor.getResult()); // 紅色
 
     }
 
@@ -111,7 +111,7 @@ public class PrettyPrintVisitorTest {
 
         coloredCircle.accept(visitor);
 
-        Assertions.assertEquals("\\033[0;32mCircle 1.0\\033[0m", visitor.getResult()); // 綠色
+        Assertions.assertEquals("\033[0;32mCircle 1.0\033[0m", visitor.getResult()); // 綠色
     }
 
     @Test
@@ -122,6 +122,6 @@ public class PrettyPrintVisitorTest {
 
         coloredCircle.accept(visitor);
 
-        Assertions.assertEquals("\\033[0;34mCircle 1.0\\033[0m", visitor.getResult()); // 藍色
+        Assertions.assertEquals("\033[0;34mCircle 1.0\033[0m", visitor.getResult()); // 藍色
     }
 }

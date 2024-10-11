@@ -37,11 +37,13 @@ public class PrettyPrintVisitor implements Visitor<String>{
     @Override
     public void visitConvexPolygon(ConvexPolygon convexPolygon) {
         sb=dealWithIndent(sb,indentCount);
+        sb.append(convexPolygon.toString());
+        /*
         sb.append("ConvexPolygon");
         //append(convexPolygon.getVectors().toString()).append("\n");
         for (TwoDimensionalVector td : convexPolygon.getVectors()) {
             sb.append(" ").append(td.toString());
-        }
+        }*/
 
     }
 
@@ -72,19 +74,21 @@ public class PrettyPrintVisitor implements Visitor<String>{
         sb=dealWithIndent(sb,indentCount);
         switch (coloredShape.getColor()) {
             case "RED":
-                sb.append("\\033[0;31m");
+                sb.append("\033[0;31m");
                 break;
             case "GREEN":
-                sb.append("\\033[0;32m");
+                sb.append("\033[0;32m");
                 break;
             case "BLUE":
-                sb.append("\\033[0;34m");
+                sb.append("\033[0;34m");
                 break;
             default:
-                sb.append("\\033[0m");
+                sb.append("\033[0m");
                 break;
         }
-        sb.append(coloredShape.getShape().toString()).append("\\033[0m");
+        //Shape temp=coloredShape.getShape();
+        //String tempS=temp.toString();
+        sb.append(coloredShape.getShape().toString()).append("\033[0m");
     }
 
     @Override

@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class CompoundShape implements Shape { //包含多個形狀
-    private final List<Shape> shapes;
+    private List<Shape> shapes;
 
     public CompoundShape() {
         this.shapes = new ArrayList<>();
@@ -39,13 +39,33 @@ public class CompoundShape implements Shape { //包含多個形狀
     @Override
     public Iterator<Shape> iterator() {
         //該方法應返回一個迭代器，能遍歷CompoundShape中的元素。
-        //return shapes.iterator();
-        return new CompoundShapeIterator(shapes);
+        return shapes.iterator();
+        //return new CompoundShapeIterator(shapes);
     }
 
     @Override
     public <T> void accept(Visitor<T> visitor) {
         visitor.visitCompoundShape(this);
+    }
+
+    public StringBuffer dealWithIndent(StringBuffer sb,int indentCount){
+        for (int i = 0; i < indentCount; ++i)
+        {
+            sb.append("  ");
+        }
+        return sb;
+    }
+
+    @Override
+    public String toString() {
+        StringBuffer sb=new StringBuffer();
+        for (int i=0;i<this.shapes.size();i++) {
+            sb.append("\n");
+            sb.append("  ").append(shapes.get(i).toString());
+            if(i==this.shapes.size()-1)sb.append("\n");
+        }
+        return "CompoundShape {"+sb+"}";
+
     }
 
 

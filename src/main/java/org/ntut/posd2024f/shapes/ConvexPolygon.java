@@ -6,7 +6,7 @@ import java.util.List;
 public class ConvexPolygon implements Shape {
     //該形狀由一組向量組成，這些向量需要按順時針或逆時針排序
     //如果未排序的話，應該拋出ShapeException異常。
-    private final List<TwoDimensionalVector> vectors;
+    private List<TwoDimensionalVector> vectors;
 
     public ConvexPolygon(List<TwoDimensionalVector> vectors)throws ShapeException {
         if (!isConvex(vectors)) {
@@ -80,7 +80,7 @@ public class ConvexPolygon implements Shape {
     public List<TwoDimensionalVector> getVectors() {
         return vectors;
     }
-    /*
+
    @Override
    public String toString() {
        StringBuffer sb=new StringBuffer();
@@ -88,6 +88,6 @@ public class ConvexPolygon implements Shape {
            sb.append(" ").append(td.toString());
        }
        return "ConvexPolygon"+sb;
-   }*/
+   }
 
 }
