@@ -39,8 +39,8 @@ public class CompoundShape implements Shape { //包含多個形狀
     @Override
     public Iterator<Shape> iterator() {
         //該方法應返回一個迭代器，能遍歷CompoundShape中的元素。
-        return shapes.iterator();
-        //return new CompoundShapeIterator(shapes);
+        //return shapes.iterator();
+        return new CompoundShapeIterator(shapes);
     }
 
     @Override
@@ -48,13 +48,6 @@ public class CompoundShape implements Shape { //包含多個形狀
         visitor.visitCompoundShape(this);
     }
 
-    public StringBuffer dealWithIndent(StringBuffer sb,int indentCount){
-        for (int i = 0; i < indentCount; ++i)
-        {
-            sb.append("  ");
-        }
-        return sb;
-    }
 
     @Override
     public String toString() {
