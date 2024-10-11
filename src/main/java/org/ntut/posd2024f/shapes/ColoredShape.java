@@ -43,7 +43,8 @@ public class ColoredShape implements Shape {
     @Override
     public <T> void accept(Visitor<T> visitor) {
         visitor.visitColoredShape(this);
-        this.color="";
+        //this.color="";
+        //shape.accept(visitor);
     }
 
     @Override
@@ -64,6 +65,7 @@ public class ColoredShape implements Shape {
                 break;
         }
         sb.append(this.shape.toString()).append("\033[0m");
+        this.color="";
         return sb.toString();
     }
 }

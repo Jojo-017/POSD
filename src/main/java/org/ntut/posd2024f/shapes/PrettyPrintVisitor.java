@@ -50,6 +50,10 @@ public class PrettyPrintVisitor implements Visitor<String>{
     @Override
     public void visitCompoundShape(CompoundShape compoundShape) {
         sb=dealWithIndent(sb,indentCount);
+        //sb.append("CompoundShape {");
+        sb.append(compoundShape.toString());
+        //sb.append("}");
+        /*
         sb.append("CompoundShape {");
         indentCount++;
         for (Iterator<Shape> it = compoundShape.iterator(); it.hasNext(); )  {
@@ -59,7 +63,7 @@ public class PrettyPrintVisitor implements Visitor<String>{
             if(!it.hasNext())sb.append("\n");
         }
         indentCount--;
-        sb.append("}");
+        sb.append("}");*/
     }
 
     @Override

@@ -41,6 +41,8 @@ public class TextedShape implements Shape {
 
     @Override
     public <T> void accept(Visitor<T> visitor) {
+
         visitor.visitTextedShape(this);
+        //shape.accept(visitor);
     }
 }

@@ -46,6 +46,10 @@ public class CompoundShape implements Shape { //包含多個形狀
     @Override
     public <T> void accept(Visitor<T> visitor) {
         visitor.visitCompoundShape(this);
+        /*
+        for (Shape shape : shapes) {
+            shape.accept(visitor);
+        }*/
     }
 
 
