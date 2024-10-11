@@ -13,7 +13,12 @@ public class Circle implements Shape {
         this.r=radius;
     }
 
+    @Override
+    public  void add(Shape shape) throws ShapeException{
+        //該方法應該拋出ShapeException，並帶有訊息Illegal Operation
+        throw new ShapeException("Illegal Operation IN Circle");
 
+    }
     @Override
     public double area() {
         return PI*r*r;

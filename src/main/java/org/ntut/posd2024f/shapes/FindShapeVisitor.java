@@ -71,6 +71,8 @@ public class FindShapeVisitor implements Visitor<List<Shape>> {
         coloredShape.getShape().accept(this);
     }
 
+
+
     public List<Shape> getResult() {
         return result;
     }

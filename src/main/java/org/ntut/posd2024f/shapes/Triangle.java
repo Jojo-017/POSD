@@ -21,6 +21,13 @@ public class Triangle implements Shape {
     }
 
     @Override
+    public  void add(Shape shape) throws ShapeException{
+        //該方法應該拋出ShapeException，並帶有訊息Illegal Operation
+        throw new ShapeException("Illegal Operation IN Triangle");
+
+    }
+
+    @Override
     public double perimeter() {
         // 計算三個頂點之間的距離
         double side1 = vectors.get(0).subtract(vectors.get(1)).length();

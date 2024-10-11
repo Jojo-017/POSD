@@ -47,6 +47,13 @@ public class ConvexPolygon implements Shape {
     }
 
     @Override
+    public  void add(Shape shape) throws ShapeException{
+        //該方法應該拋出ShapeException，並帶有訊息Illegal Operation
+        throw new ShapeException("Illegal Operation IN ConvexPolygon");
+
+    }
+
+    @Override
     public double area() {
         //Shoelace Formula
         //Area(P1, P2, P3) = (x1y2 - x1y3 - x2y1 + x3y1 + x2y3 - x3y2) / 2
