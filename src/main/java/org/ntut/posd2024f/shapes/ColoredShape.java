@@ -45,4 +45,25 @@ public class ColoredShape implements Shape {
         visitor.visitColoredShape(this);
         this.color="";
     }
+
+    @Override
+    public String toString() {
+        StringBuffer sb=new StringBuffer();
+        switch (this.color) {
+            case "RED":
+                sb.append("\033[0;31m");
+                break;
+            case "GREEN":
+                sb.append("\033[0;32m");
+                break;
+            case "BLUE":
+                sb.append("\033[0;34m");
+                break;
+            default:
+                sb.append("\033[0m");
+                break;
+        }
+        sb.append(this.shape.toString()).append("\033[0m");
+        return sb.toString();
+    }
 }

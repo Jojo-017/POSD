@@ -72,6 +72,8 @@ public class PrettyPrintVisitor implements Visitor<String>{
     @Override
     public void visitColoredShape(ColoredShape coloredShape) {
         sb=dealWithIndent(sb,indentCount);
+        sb.append(coloredShape.toString());
+        /*
         switch (coloredShape.getColor()) {
             case "RED":
                 sb.append("\033[0;31m");
@@ -88,7 +90,7 @@ public class PrettyPrintVisitor implements Visitor<String>{
         }
         //Shape temp=coloredShape.getShape();
         //String tempS=temp.toString();
-        sb.append(coloredShape.getShape().toString()).append("\033[0m");
+        sb.append(coloredShape.getShape().toString()).append("\033[0m");*/
     }
 
     @Override
