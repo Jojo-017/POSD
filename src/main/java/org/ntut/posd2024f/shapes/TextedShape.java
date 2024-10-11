@@ -10,6 +10,7 @@ public class TextedShape implements Shape {
         this.text=text;
     }
 
+
     @Override
     public double area() {
         return this.shape.area();
@@ -26,7 +27,7 @@ public class TextedShape implements Shape {
     }
 
     public Shape getShape() {
-        return shape;
+        return this.shape;
     }
 
     public String getText() {

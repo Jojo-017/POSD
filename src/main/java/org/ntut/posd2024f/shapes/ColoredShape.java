@@ -26,11 +26,11 @@ public class ColoredShape implements Shape {
     }
 
     public Shape getShape() {
-        return shape;
+        return this.shape;
     }
 
     public String getColor() {
-        return  color;
+        return  this.color;
     }
 
     @Override
