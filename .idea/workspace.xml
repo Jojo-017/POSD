@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ceeff082-9da8-49c7-a15b-47d0ff867559" name="Changes" comment="1011_HW3_1st">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/PrettyPrintVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/PrettyPrintVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/PrettyPrintVisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/PrettyPrintVisitorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ceeff082-9da8-49c7-a15b-47d0ff867559" name="Changes" comment="1011_HW3_1st" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

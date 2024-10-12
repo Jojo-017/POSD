@@ -65,10 +65,10 @@ public class PrettyPrintVisitor implements Visitor<String> {
             sb=dealWithIndent(sb,indentCount);
             Shape shape = it.next();
             shape.accept(this);
-            if(!it.hasNext())sb.append("\n");
+            if(!it.hasNext())sb.append("\n").append("}");
         }
         indentCount--;
-        sb.append("}");
+        //sb.append("}");
     }
 
     @Override
