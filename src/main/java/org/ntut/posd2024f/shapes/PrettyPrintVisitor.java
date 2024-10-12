@@ -52,7 +52,7 @@ public class PrettyPrintVisitor implements Visitor<String> {
 
     @Override
     public void visitCompoundShape(CompoundShape compoundShape) {
-        sb=dealWithIndent(sb,indentCount);
+        //sb=dealWithIndent(sb,indentCount);
         //sb.append("CompoundShape {");
 
         //sb.append(compoundShape.toString());
