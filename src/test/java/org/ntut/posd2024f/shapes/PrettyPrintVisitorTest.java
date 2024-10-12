@@ -124,4 +124,15 @@ public class PrettyPrintVisitorTest {
 
         Assertions.assertEquals("\033[0;34mCircle 1.0\033[0m", visitor.getResult()); // 藍色
     }
+/*
+    @Test
+    public void testVisitComplexShape(){
+        CompoundShape comp1=new CompoundShape();
+        CompoundShape comp2=new CompoundShape();
+        CompoundShape comp3=new CompoundShape();
+        comp2.add(comp3);;
+        Shape circle = new Circle(1.0);
+        ColoredShape coloredShape=new ColoredShape(c)
+
+    }*/
 }

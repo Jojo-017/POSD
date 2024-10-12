@@ -17,28 +17,28 @@ public class PrettyPrintVisitor implements Visitor<String> {
 
     @Override
     public void visitCircle(Circle circle) {
-        sb=dealWithIndent(sb,indentCount);
+        //sb=dealWithIndent(sb,indentCount);
         //circle.accept(this);
         sb.append(circle.toString());
     }
 
     @Override
     public void visitRectangle(Rectangle rectangle) {
-        sb=dealWithIndent(sb,indentCount);
+        //sb=dealWithIndent(sb,indentCount);
         //rectangle.accept(this);
         sb.append(rectangle.toString());
     }
 
     @Override
     public void visitTriangle(Triangle triangle) {
-        sb=dealWithIndent(sb,indentCount);
+        //sb=dealWithIndent(sb,indentCount);
         //triangle.accept(this);
         sb.append(triangle.toString());
     }
 
     @Override
     public void visitConvexPolygon(ConvexPolygon convexPolygon) {
-        sb=dealWithIndent(sb,indentCount);
+        //sb=dealWithIndent(sb,indentCount);
         //convexPolygon.accept(this);
         //sb.append(convexPolygon.toString());
 
@@ -62,6 +62,7 @@ public class PrettyPrintVisitor implements Visitor<String> {
         indentCount++;
         for (Iterator<Shape> it = compoundShape.iterator(); it.hasNext(); )  {
             sb.append("\n");
+            sb=dealWithIndent(sb,indentCount);
             Shape shape = it.next();
             shape.accept(this);
             if(!it.hasNext())sb.append("\n");
