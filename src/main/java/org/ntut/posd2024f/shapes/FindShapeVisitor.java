@@ -8,7 +8,7 @@ import java.util.function.Predicate;
 public class FindShapeVisitor implements Visitor<List<Shape>> {
     //找到符合特定條件的shape
     //例如：條件是面積等於10，Visitor應返回面積等於10的形狀
-    private Predicate<Shape> condition;
+    private final Predicate<Shape> condition;
     private List<Shape> result;
 
     public FindShapeVisitor(Predicate<Shape> condition) {

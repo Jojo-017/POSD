@@ -47,6 +47,7 @@ public class ColoredShape implements Shape {
         //shape.accept(visitor);
     }
 
+    /*
     @Override
     public String toString() {
         StringBuffer sb=new StringBuffer();
@@ -67,5 +68,5 @@ public class ColoredShape implements Shape {
         sb.append(this.shape.toString()).append("\033[0m");
         this.color="";
         return sb.toString();
-    }
+    }*/
 }

@@ -52,7 +52,7 @@ public class CompoundShape implements Shape { //包含多個形狀
         }*/
     }
 
-
+/*
     @Override
     public String toString() {
         StringBuffer sb=new StringBuffer();
@@ -63,7 +63,7 @@ public class CompoundShape implements Shape { //包含多個形狀
         }
         return "CompoundShape {"+sb+"}";
 
-    }
+    }*/
 
 
 }
