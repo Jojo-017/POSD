@@ -1,8 +1,4 @@
-package org.ntut.posd2024f.shapes.Shapes;
-
-import org.ntut.posd2024f.shapes.Iterator.NullIterator;
-import org.ntut.posd2024f.shapes.ShapeException;
-import org.ntut.posd2024f.shapes.Visitor.Visitor;
+package org.ntut.posd2024f.shapes;
 
 import java.util.Iterator;
 

@@ -1,7 +1,4 @@
-package org.ntut.posd2024f.shapes.Visitor;
-
-import org.ntut.posd2024f.shapes.*;
-import org.ntut.posd2024f.shapes.Shapes.*;
+package org.ntut.posd2024f.shapes;
 
 import java.util.Iterator;
 

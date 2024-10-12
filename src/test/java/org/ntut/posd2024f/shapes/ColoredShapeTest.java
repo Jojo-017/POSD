@@ -3,8 +3,6 @@ package org.ntut.posd2024f.shapes;
 
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
-import org.ntut.posd2024f.shapes.Shapes.*;
-import org.ntut.posd2024f.shapes.Visitor.PrettyPrintVisitor;
 
 import java.util.ArrayList;
 import java.util.Iterator;

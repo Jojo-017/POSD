@@ -1,6 +1,4 @@
-package org.ntut.posd2024f.shapes.Iterator;
-
-import org.ntut.posd2024f.shapes.Shapes.Shape;
+package org.ntut.posd2024f.shapes;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

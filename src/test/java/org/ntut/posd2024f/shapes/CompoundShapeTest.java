@@ -7,7 +7,6 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.junit.jupiter.api.Assertions;
-import org.ntut.posd2024f.shapes.Shapes.*;
 
 public class CompoundShapeTest {
     @Test

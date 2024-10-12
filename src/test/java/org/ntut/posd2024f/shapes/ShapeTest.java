@@ -2,10 +2,6 @@ package org.ntut.posd2024f.shapes;
 
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
-import org.ntut.posd2024f.shapes.Shapes.Circle;
-import org.ntut.posd2024f.shapes.Shapes.Rectangle;
-import org.ntut.posd2024f.shapes.Shapes.Shape;
-import org.ntut.posd2024f.shapes.Shapes.Triangle;
 
 import java.util.ArrayList;
 import java.util.List;

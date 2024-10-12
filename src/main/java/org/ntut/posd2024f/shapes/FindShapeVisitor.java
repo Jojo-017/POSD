@@ -1,9 +1,4 @@
-package org.ntut.posd2024f.shapes.Visitor;
-
-import org.ntut.posd2024f.shapes.Shapes.Rectangle;
-import org.ntut.posd2024f.shapes.Shapes.*;
-import org.ntut.posd2024f.shapes.Shapes.TextedShape;
-import org.ntut.posd2024f.shapes.Shapes.Triangle;
+package org.ntut.posd2024f.shapes;
 
 import java.util.ArrayList;
 import java.util.Iterator;

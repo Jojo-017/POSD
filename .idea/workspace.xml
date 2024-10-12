@@ -5,7 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ceeff082-9da8-49c7-a15b-47d0ff867559" name="Changes" comment="1011_HW3_1st">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Geo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Geo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/InputOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/InputOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Iterator/CompoundShapeIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/CompoundShapeIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Iterator/NullIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/NullIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Shapes/ColoredShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/ColoredShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Shapes/CompoundShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/CompoundShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Shapes/ConvexPolygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/ConvexPolygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Shapes/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Shapes/TextedShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/TextedShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Shapes/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Visitor/FindShapeVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/FindShapeVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Visitor/PrettyPrintVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/PrettyPrintVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Visitor/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/CircleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/ColoredShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/ColoredShapeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/CompoundShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/CompoundShapeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/ConvexPolygonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/ConvexPolygonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/FindShapeVisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/FindShapeVisitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/NullIteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/NullIteratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/PrettyPrintVisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/PrettyPrintVisitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/RectangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/ShapeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/TextedShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/TextedShapeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/TriangleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +93,7 @@
     "JUnit.SortTest.executor": "Run",
     "JUnit.TextedShapeTest.executor": "Run",
     "JUnit.TextedShapeTest.testAcceptVisitor.executor": "Run",
+    "JUnit.TextedShapeTest.testCompoundShapeInTextedShapeWithAdd.executor": "Debug",
     "JUnit.TriangleTest.executor": "Run",
     "JUnit.TwoDimensionalVectorTest.executor": "Run",
     "JUnit.TwoDimensionalVectorTest.testTwoDimensionalVectorSubtract.executor": "Run",
@@ -77,8 +106,8 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TextedShapeTest.testCompoundShapeInTextedShapeWithAdd">
-    <configuration name="ColoredShapeTest.testCompoundShapeInColoredShapeWithAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TwoDimensionalVectorTest">
+    <configuration name="SortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shapes" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +116,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.ntut.posd2024f.shapes" />
-      <option name="MAIN_CLASS_NAME" value="org.ntut.posd2024f.shapes.ColoredShapeTest" />
-      <option name="METHOD_NAME" value="testCompoundShapeInColoredShapeWithAdd" />
+      <option name="MAIN_CLASS_NAME" value="org.ntut.posd2024f.shapes.SortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortTest.testByAreaAscending" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shapes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ntut.posd2024f.shapes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ntut.posd2024f.shapes" />
+      <option name="MAIN_CLASS_NAME" value="org.ntut.posd2024f.shapes.SortTest" />
+      <option name="METHOD_NAME" value="testByAreaAscending" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,22 +153,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextedShapeTest.testCompoundShapeInTextedShapeWithAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shapes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ntut.posd2024f.shapes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.ntut.posd2024f.shapes" />
-      <option name="MAIN_CLASS_NAME" value="org.ntut.posd2024f.shapes.TextedShapeTest" />
-      <option name="METHOD_NAME" value="testCompoundShapeInTextedShapeWithAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shapes" />
       <extension name="coverage">
@@ -140,7 +168,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDimensionalVectorTest.testTwoDimensionalVectorSubtract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoDimensionalVectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shapes" />
       <extension name="coverage">
         <pattern>
@@ -150,19 +178,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.ntut.posd2024f.shapes" />
       <option name="MAIN_CLASS_NAME" value="org.ntut.posd2024f.shapes.TwoDimensionalVectorTest" />
-      <option name="METHOD_NAME" value="testTwoDimensionalVectorSubtract" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TextedShapeTest.testCompoundShapeInTextedShapeWithAdd" />
-        <item itemvalue="JUnit.ColoredShapeTest.testCompoundShapeInColoredShapeWithAdd" />
-        <item itemvalue="JUnit.TwoDimensionalVectorTest.testTwoDimensionalVectorSubtract" />
-        <item itemvalue="JUnit.TextedShapeTest" />
+        <item itemvalue="JUnit.TwoDimensionalVectorTest" />
         <item itemvalue="JUnit.TriangleTest" />
+        <item itemvalue="JUnit.TextedShapeTest" />
+        <item itemvalue="JUnit.SortTest" />
+        <item itemvalue="JUnit.SortTest.testByAreaAscending" />
       </list>
     </recent_temporary>
   </component>

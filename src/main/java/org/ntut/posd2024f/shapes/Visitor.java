@@ -1,7 +1,4 @@
-package org.ntut.posd2024f.shapes.Visitor;
-
-import org.ntut.posd2024f.shapes.Shapes.Rectangle;
-import org.ntut.posd2024f.shapes.Shapes.*;
+package org.ntut.posd2024f.shapes;
 
 public interface Visitor<T> {
     public void visitCircle(Circle circle);

@@ -2,8 +2,6 @@ package org.ntut.posd2024f.shapes;
 
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
-import org.ntut.posd2024f.shapes.Shapes.*;
-import org.ntut.posd2024f.shapes.Visitor.PrettyPrintVisitor;
 
 public class TextedShapeTest {
 
@@ -15,7 +13,7 @@ public class TextedShapeTest {
         compoundShape.add(circle);
         compoundShape.add(rectangle);
 
-        ColoredShape coloredShape = new ColoredShape(circle, "Hello");
+        ColoredShape coloredShape = new ColoredShape(circle, "RED");
 
         TextedShape textedShape = new TextedShape(compoundShape, "Hello");
         //ColoredShape coloredShape = new ColoredShape(compoundShape, "RED");
