@@ -73,7 +73,7 @@ public class PrettyPrintVisitor implements Visitor<String> {
 
     @Override
     public void visitTextedShape(TextedShape textedShape) {
-        sb=dealWithIndent(sb,indentCount);
+        //sb=dealWithIndent(sb,indentCount);
         //, text: Hello
         textedShape.getShape().accept(this);
         sb.append(", text: ").append(textedShape.getText());
@@ -81,7 +81,7 @@ public class PrettyPrintVisitor implements Visitor<String> {
 
     @Override
     public void visitColoredShape(ColoredShape coloredShape) {
-        sb=dealWithIndent(sb,indentCount);
+        //sb=dealWithIndent(sb,indentCount);
         //sb.append(coloredShape.toString());
 
         switch (coloredShape.getColor()) {
