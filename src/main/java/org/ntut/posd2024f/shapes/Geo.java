@@ -1,5 +1,7 @@
 package org.ntut.posd2024f.shapes;
 
+import org.ntut.posd2024f.shapes.Shapes.Shape;
+
 import java.util.ArrayList;
 
 public final class Geo {

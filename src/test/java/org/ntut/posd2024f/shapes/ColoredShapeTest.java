@@ -3,12 +3,32 @@ package org.ntut.posd2024f.shapes;
 
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
+import org.ntut.posd2024f.shapes.Shapes.*;
+import org.ntut.posd2024f.shapes.Visitor.PrettyPrintVisitor;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
 public class ColoredShapeTest {
+
+    @Test
+    public void testCompoundShapeInColoredShape(){
+        Shape circle = new Circle(1.0); //  π
+        Shape rectangle = new Rectangle(2.0, 3.0); //  6
+        Shape compoundShape=new CompoundShape();
+        compoundShape.add(circle);
+        compoundShape.add(rectangle);
+
+        Shape textedShape = new TextedShape(circle, "Hello");
+
+        //Shape textedShape = new TextedShape(compoundShape, "Hello");
+        ColoredShape coloredShape = new ColoredShape(compoundShape, "RED");
+        coloredShape.getShape().add(textedShape);
+        Assertions.assertEquals("RED", coloredShape.getColor());
+
+    }
+
     @Test
     public void testGetColor() {
         Shape circle = new Circle(1.0); // 假設圓形半徑為1

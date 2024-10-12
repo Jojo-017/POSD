@@ -1,4 +1,7 @@
-package org.ntut.posd2024f.shapes;
+package org.ntut.posd2024f.shapes.Shapes;
+
+import org.ntut.posd2024f.shapes.ShapeException;
+import org.ntut.posd2024f.shapes.Visitor.Visitor;
 
 import java.util.Iterator;
 
@@ -11,7 +14,7 @@ public class ColoredShape implements Shape {
     }
 
     @Override
-    public  void add(Shape shape) throws ShapeException{
+    public  void add(Shape shape) throws ShapeException {
         //該方法應該拋出ShapeException，並帶有訊息Illegal Operation
         throw new ShapeException("Illegal Operation");
 

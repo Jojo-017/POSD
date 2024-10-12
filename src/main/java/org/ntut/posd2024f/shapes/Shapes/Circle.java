@@ -1,6 +1,7 @@
-package org.ntut.posd2024f.shapes;
+package org.ntut.posd2024f.shapes.Shapes;
 
-import java.util.Iterator;
+import org.ntut.posd2024f.shapes.ShapeException;
+import org.ntut.posd2024f.shapes.Visitor.Visitor;
 
 public class Circle implements Shape {
     private final double PI=Math.PI;

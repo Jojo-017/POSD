@@ -2,6 +2,10 @@ package org.ntut.posd2024f.shapes;
 
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
+import org.ntut.posd2024f.shapes.Shapes.Circle;
+import org.ntut.posd2024f.shapes.Shapes.Shape;
+import org.ntut.posd2024f.shapes.Shapes.TextedShape;
+import org.ntut.posd2024f.shapes.Visitor.PrettyPrintVisitor;
 
 public class TextedShapeTest {
 

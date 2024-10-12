@@ -1,9 +1,12 @@
 package org.ntut.posd2024f.shapes;
 
+import org.ntut.posd2024f.shapes.Shapes.Circle;
+import org.ntut.posd2024f.shapes.Shapes.Rectangle;
+import org.ntut.posd2024f.shapes.Shapes.Shape;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.List;
 
 public class InputOutput {
     public InputOutput() {

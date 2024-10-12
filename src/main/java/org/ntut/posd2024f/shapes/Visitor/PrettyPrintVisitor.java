@@ -1,9 +1,11 @@
-package org.ntut.posd2024f.shapes;
+package org.ntut.posd2024f.shapes.Visitor;
+
+import org.ntut.posd2024f.shapes.*;
+import org.ntut.posd2024f.shapes.Shapes.*;
 
 import java.util.Iterator;
-import java.util.List;
 
-public class PrettyPrintVisitor implements Visitor<String>{
+public class PrettyPrintVisitor implements Visitor<String> {
     private StringBuffer sb=new StringBuffer();
    // private final String indent="  ";
     private int indentCount=0;

@@ -1,4 +1,7 @@
-package org.ntut.posd2024f.shapes;
+package org.ntut.posd2024f.shapes.Shapes;
+
+import org.ntut.posd2024f.shapes.ShapeException;
+import org.ntut.posd2024f.shapes.Visitor.Visitor;
 
 public class Rectangle implements Shape {
     private double w;

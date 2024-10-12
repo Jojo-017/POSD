@@ -1,4 +1,6 @@
-package org.ntut.posd2024f.shapes;
+package org.ntut.posd2024f.shapes.Iterator;
+
+import org.ntut.posd2024f.shapes.Shapes.Shape;
 
 import java.util.Iterator;
 import java.util.List;

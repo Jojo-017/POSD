@@ -1,4 +1,8 @@
-package org.ntut.posd2024f.shapes;
+package org.ntut.posd2024f.shapes.Shapes;
+
+import org.ntut.posd2024f.shapes.ShapeException;
+import org.ntut.posd2024f.shapes.TwoDimensionalVector;
+import org.ntut.posd2024f.shapes.Visitor.Visitor;
 
 import java.util.List;
 
@@ -8,7 +12,7 @@ public class Triangle implements Shape {
     //private TwoDimensionalVector v1, v2, v3;
 
 
-    public Triangle(List<TwoDimensionalVector> vectors) throws ShapeException{
+    public Triangle(List<TwoDimensionalVector> vectors) throws ShapeException {
         if (vectors.size() != 3) {
             throw new ShapeException("It's not a triangle!");
         }

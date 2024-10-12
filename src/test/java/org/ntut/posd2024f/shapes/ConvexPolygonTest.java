@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.jupiter.api.Assertions;
+import org.ntut.posd2024f.shapes.Shapes.ConvexPolygon;
 
 public class ConvexPolygonTest {
     @Test

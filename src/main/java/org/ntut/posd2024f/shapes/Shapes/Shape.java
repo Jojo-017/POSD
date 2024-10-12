@@ -1,4 +1,8 @@
-package org.ntut.posd2024f.shapes;
+package org.ntut.posd2024f.shapes.Shapes;
+
+import org.ntut.posd2024f.shapes.Iterator.NullIterator;
+import org.ntut.posd2024f.shapes.ShapeException;
+import org.ntut.posd2024f.shapes.Visitor.Visitor;
 
 import java.util.Iterator;
 
@@ -6,7 +10,7 @@ public interface Shape {
     public double area();
     public double perimeter();
     public String toString();
-    public default void add(Shape shape) throws ShapeException{
+    public default void add(Shape shape) throws ShapeException {
         //該方法應該拋出ShapeException，並帶有訊息Illegal Operation
         throw new ShapeException("Illegal Operation");
 

@@ -1,8 +1,11 @@
 package org.ntut.posd2024f.shapes;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
+import org.ntut.posd2024f.shapes.Shapes.Circle;
+import org.ntut.posd2024f.shapes.Shapes.Rectangle;
+import org.ntut.posd2024f.shapes.Shapes.Shape;
+import org.ntut.posd2024f.shapes.Shapes.Triangle;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +15,7 @@ public class ShapeTest {
 
     @Test(expected = Exception.class)//測試是否會拋出我們預期的Exception。
     public void testShapeException() throws Exception {
-        Shape  shape =new Rectangle(5.0,6.0);
+        Shape shape =new Rectangle(5.0,6.0);
         shape.add(shape);
     }
 

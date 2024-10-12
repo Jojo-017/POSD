@@ -1,12 +1,12 @@
 package org.ntut.posd2024f.shapes;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.jupiter.api.Assertions;
+import org.ntut.posd2024f.shapes.Shapes.Triangle;
 
 public class TriangleTest {
     @Test(expected = Exception.class)//測試是否會拋出我們預期的Exception。
