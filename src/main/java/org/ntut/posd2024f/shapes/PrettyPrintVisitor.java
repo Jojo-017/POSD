@@ -60,14 +60,16 @@ public class PrettyPrintVisitor implements Visitor<String> {
 
         sb.append("CompoundShape {");
         indentCount++;
-        for (Iterator<Shape> it = compoundShape.iterator(); it.hasNext(); )  {
+        Iterator<Shape> it = compoundShape.iterator();
+        while (it.hasNext() )  {
             sb.append("\n");
             sb=dealWithIndent(sb,indentCount);
             Shape shape = it.next();
             shape.accept(this);
-            if(!it.hasNext())sb.append("\n").append("}");
+            if(!it.hasNext())sb.append("\n");
         }
         indentCount--;
+        if(!it.hasNext() )sb.append("}");
         //sb.append("}");
     }
 
