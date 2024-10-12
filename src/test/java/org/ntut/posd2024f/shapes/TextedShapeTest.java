@@ -2,12 +2,27 @@ package org.ntut.posd2024f.shapes;
 
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
-import org.ntut.posd2024f.shapes.Shapes.Circle;
-import org.ntut.posd2024f.shapes.Shapes.Shape;
-import org.ntut.posd2024f.shapes.Shapes.TextedShape;
+import org.ntut.posd2024f.shapes.Shapes.*;
 import org.ntut.posd2024f.shapes.Visitor.PrettyPrintVisitor;
 
 public class TextedShapeTest {
+
+    @Test
+    public void testCompoundShapeInTextedShapeWithAdd(){
+        Shape circle = new Circle(1.0); //  π
+        Shape rectangle = new Rectangle(2.0, 3.0); //  6
+        Shape compoundShape=new CompoundShape();
+        compoundShape.add(circle);
+        compoundShape.add(rectangle);
+
+        ColoredShape coloredShape = new ColoredShape(circle, "Hello");
+
+        TextedShape textedShape = new TextedShape(compoundShape, "Hello");
+        //ColoredShape coloredShape = new ColoredShape(compoundShape, "RED");
+        textedShape.getShape().add(coloredShape);
+        Assertions.assertEquals("Hello", textedShape.getText());
+
+    }
 
     @Test
     public void testGetText() {

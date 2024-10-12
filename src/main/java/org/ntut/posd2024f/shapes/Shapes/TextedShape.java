@@ -15,7 +15,8 @@ public class TextedShape implements Shape {
     @Override
     public  void add(Shape shape) throws ShapeException {
         //該方法應該拋出ShapeException，並帶有訊息Illegal Operation
-        throw new ShapeException("Illegal Operation");
+        //throw new ShapeException("Illegal Operation");
+        this.shape.add(shape);
 
     }
 

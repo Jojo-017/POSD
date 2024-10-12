@@ -13,14 +13,14 @@ import java.util.List;
 public class ColoredShapeTest {
 
     @Test
-    public void testCompoundShapeInColoredShape(){
+    public void testCompoundShapeInColoredShapeWithAdd(){
         Shape circle = new Circle(1.0); //  π
         Shape rectangle = new Rectangle(2.0, 3.0); //  6
         Shape compoundShape=new CompoundShape();
         compoundShape.add(circle);
         compoundShape.add(rectangle);
 
-        Shape textedShape = new TextedShape(circle, "Hello");
+        TextedShape textedShape = new TextedShape(circle, "Hello");
 
         //Shape textedShape = new TextedShape(compoundShape, "Hello");
         ColoredShape coloredShape = new ColoredShape(compoundShape, "RED");
