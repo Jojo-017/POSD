@@ -17,7 +17,7 @@ public class Rectangle implements Shape {
     @Override
     public  void add(Shape shape) throws ShapeException{
         //該方法應該拋出ShapeException，並帶有訊息Illegal Operation
-        throw new ShapeException("Illegal Operation IN Rectangle");
+        throw new ShapeException("Illegal Operation");
 
     }
     @Override

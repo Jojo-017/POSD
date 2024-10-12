@@ -6,10 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ceeff082-9da8-49c7-a15b-47d0ff867559" name="Changes" comment="1011_HW3_1st">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/ColoredShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/ColoredShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/CompoundShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/CompoundShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/FindShapeVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/FindShapeVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/PrettyPrintVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/PrettyPrintVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/ConvexPolygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/ConvexPolygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/TextedShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/TextedShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/FindShapeVisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ntut/posd2024f/shapes/FindShapeVisitorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,69 +31,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.CircleTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ColoredShapeTest.GPTtest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ColoredShapeTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ColoredShapeTest.testAcceptVisitorForColoredCompoundShape.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ColoredShapeTest.testColoredShapeCompoundShape.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ColoredShapeTest.testCompoundShapeWithMultipleColoredShapes.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ColoredShapeTest.testGetAreaAndPerimeter.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ColoredShapeTest.testGetColor.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ColoredShapeTest.testGetShape.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ColoredShapeTest.testIterator.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CompoundShapeTest.TestCompoundShapeArea.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CompoundShapeTest.TestCompoundShapePerimeter.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CompoundShapeTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CompoundShapeTest.testCompoundShapeIterator.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ConvexPolygonTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FindShapeVisitorTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FindShapeVisitorTest.testFindShapeInComplexShape.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FindShapeVisitorTest.testFindShapeWithAreaEquals.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.NullIteratorTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeBlue.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeGreen.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeRed.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintCompoundShape.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintConvexPolygon.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintEmptyCompoundShape.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintRectangle.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintTextedShape.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RectangleTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ShapeTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ShapeTest.testShapeException.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ShapeTest.testShapeNullIterator.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TextedShapeTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TextedShapeTest.testAcceptVisitor.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TriangleTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TwoDimensionalVectorTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CircleTest.executor": "Run",
+    "JUnit.ColoredShapeTest.GPTtest.executor": "Run",
+    "JUnit.ColoredShapeTest.executor": "Run",
+    "JUnit.ColoredShapeTest.testAcceptVisitorForColoredCompoundShape.executor": "Run",
+    "JUnit.ColoredShapeTest.testColoredShapeCompoundShape.executor": "Run",
+    "JUnit.ColoredShapeTest.testCompoundShapeWithMultipleColoredShapes.executor": "Run",
+    "JUnit.ColoredShapeTest.testGetAreaAndPerimeter.executor": "Run",
+    "JUnit.ColoredShapeTest.testGetColor.executor": "Run",
+    "JUnit.ColoredShapeTest.testGetShape.executor": "Run",
+    "JUnit.ColoredShapeTest.testIterator.executor": "Run",
+    "JUnit.CompoundShapeTest.TestCompoundShapeArea.executor": "Run",
+    "JUnit.CompoundShapeTest.TestCompoundShapePerimeter.executor": "Run",
+    "JUnit.CompoundShapeTest.executor": "Run",
+    "JUnit.CompoundShapeTest.testCompoundShapeIterator.executor": "Run",
+    "JUnit.ConvexPolygonTest.executor": "Run",
+    "JUnit.FindShapeVisitorTest.executor": "Run",
+    "JUnit.FindShapeVisitorTest.testFindShapeInComplexShape.executor": "Run",
+    "JUnit.FindShapeVisitorTest.testFindShapeWithAreaEquals.executor": "Run",
+    "JUnit.FindShapeVisitorTest.testVisitComplexShape.executor": "Run",
+    "JUnit.NullIteratorTest.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeBlue.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeGreen.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeRed.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.testPrettyPrintCompoundShape.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.testPrettyPrintConvexPolygon.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.testPrettyPrintEmptyCompoundShape.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.testPrettyPrintRectangle.executor": "Run",
+    "JUnit.PrettyPrintVisitorTest.testPrettyPrintTextedShape.executor": "Run",
+    "JUnit.RectangleTest.executor": "Run",
+    "JUnit.ShapeTest.executor": "Run",
+    "JUnit.ShapeTest.testShapeException.executor": "Run",
+    "JUnit.ShapeTest.testShapeNullIterator.executor": "Run",
+    "JUnit.SortTest.executor": "Run",
+    "JUnit.TextedShapeTest.executor": "Run",
+    "JUnit.TextedShapeTest.testAcceptVisitor.executor": "Run",
+    "JUnit.TriangleTest.executor": "Run",
+    "JUnit.TwoDimensionalVectorTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.TextedShapeTest">
-    <configuration name="ColoredShapeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shapes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ntut.posd2024f.shapes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.ntut.posd2024f.shapes" />
-      <option name="MAIN_CLASS_NAME" value="org.ntut.posd2024f.shapes.ColoredShapeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="JUnit.FindShapeVisitorTest.testFindShapeWithAreaEquals">
     <configuration name="FindShapeVisitorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shapes" />
       <extension name="coverage">
@@ -106,6 +95,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindShapeVisitorTest.testFindShapeWithAreaEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shapes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ntut.posd2024f.shapes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ntut.posd2024f.shapes" />
+      <option name="MAIN_CLASS_NAME" value="org.ntut.posd2024f.shapes.FindShapeVisitorTest" />
+      <option name="METHOD_NAME" value="testFindShapeWithAreaEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindShapeVisitorTest.testVisitComplexShape" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shapes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ntut.posd2024f.shapes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ntut.posd2024f.shapes" />
+      <option name="MAIN_CLASS_NAME" value="org.ntut.posd2024f.shapes.FindShapeVisitorTest" />
+      <option name="METHOD_NAME" value="testVisitComplexShape" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrettyPrintVisitorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shapes" />
       <extension name="coverage">
@@ -117,22 +138,6 @@
       <option name="PACKAGE_NAME" value="org.ntut.posd2024f.shapes" />
       <option name="MAIN_CLASS_NAME" value="org.ntut.posd2024f.shapes.PrettyPrintVisitorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrettyPrintVisitorTest.testPrettyPrintEmptyCompoundShape" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shapes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ntut.posd2024f.shapes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.ntut.posd2024f.shapes" />
-      <option name="MAIN_CLASS_NAME" value="org.ntut.posd2024f.shapes.PrettyPrintVisitorTest" />
-      <option name="METHOD_NAME" value="testPrettyPrintEmptyCompoundShape" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindShapeVisitorTest.testFindShapeWithAreaEquals" />
+        <item itemvalue="JUnit.FindShapeVisitorTest" />
+        <item itemvalue="JUnit.FindShapeVisitorTest.testVisitComplexShape" />
         <item itemvalue="JUnit.TextedShapeTest" />
         <item itemvalue="JUnit.PrettyPrintVisitorTest" />
-        <item itemvalue="JUnit.FindShapeVisitorTest" />
-        <item itemvalue="JUnit.ColoredShapeTest" />
-        <item itemvalue="JUnit.PrettyPrintVisitorTest.testPrettyPrintEmptyCompoundShape" />
       </list>
     </recent_temporary>
   </component>
