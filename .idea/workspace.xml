@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ceeff082-9da8-49c7-a15b-47d0ff867559" name="Changes" comment="1011_HW3_1st">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/PrettyPrintVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/PrettyPrintVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ntut/posd2024f/shapes/Visitor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,61 +25,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.CircleTest.executor": "Run",
-    "JUnit.ColoredShapeTest.GPTtest.executor": "Run",
-    "JUnit.ColoredShapeTest.executor": "Run",
-    "JUnit.ColoredShapeTest.testAcceptVisitorForColoredCompoundShape.executor": "Run",
-    "JUnit.ColoredShapeTest.testColoredShapeCompoundShape.executor": "Run",
-    "JUnit.ColoredShapeTest.testCompoundShapeInColoredShape.executor": "Debug",
-    "JUnit.ColoredShapeTest.testCompoundShapeInColoredShapeWithAdd.executor": "Run",
-    "JUnit.ColoredShapeTest.testCompoundShapeWithMultipleColoredShapes.executor": "Run",
-    "JUnit.ColoredShapeTest.testGetAreaAndPerimeter.executor": "Run",
-    "JUnit.ColoredShapeTest.testGetColor.executor": "Run",
-    "JUnit.ColoredShapeTest.testGetShape.executor": "Run",
-    "JUnit.ColoredShapeTest.testIterator.executor": "Run",
-    "JUnit.CompoundShapeTest.TestCompoundShapeArea.executor": "Run",
-    "JUnit.CompoundShapeTest.TestCompoundShapePerimeter.executor": "Run",
-    "JUnit.CompoundShapeTest.executor": "Run",
-    "JUnit.CompoundShapeTest.testCompoundShapeIterator.executor": "Run",
-    "JUnit.ConvexPolygonTest.executor": "Run",
-    "JUnit.FindShapeVisitorTest.executor": "Run",
-    "JUnit.FindShapeVisitorTest.testFindShapeInComplexShape.executor": "Run",
-    "JUnit.FindShapeVisitorTest.testFindShapeWithAreaEquals.executor": "Run",
-    "JUnit.FindShapeVisitorTest.testVisitComplexShape.executor": "Run",
-    "JUnit.NullIteratorTest.executor": "Run",
-    "JUnit.PrettyPrintVisitorTest.executor": "Run",
-    "JUnit.PrettyPrintVisitorTest.testPrettyPrintCircle.executor": "Run",
-    "JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeBlue.executor": "Run",
-    "JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeGreen.executor": "Run",
-    "JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeRed.executor": "Run",
-    "JUnit.PrettyPrintVisitorTest.testPrettyPrintCompoundShape.executor": "Run",
-    "JUnit.PrettyPrintVisitorTest.testPrettyPrintConvexPolygon.executor": "Run",
-    "JUnit.PrettyPrintVisitorTest.testPrettyPrintEmptyCompoundShape.executor": "Run",
-    "JUnit.PrettyPrintVisitorTest.testPrettyPrintRectangle.executor": "Run",
-    "JUnit.PrettyPrintVisitorTest.testPrettyPrintTextedShape.executor": "Run",
-    "JUnit.RectangleTest.executor": "Run",
-    "JUnit.ShapeTest.executor": "Run",
-    "JUnit.ShapeTest.testShapeException.executor": "Run",
-    "JUnit.ShapeTest.testShapeNullIterator.executor": "Run",
-    "JUnit.SortTest.executor": "Run",
-    "JUnit.SortTest.testByAreaAscending.executor": "Run",
-    "JUnit.TextedShapeTest.executor": "Run",
-    "JUnit.TextedShapeTest.testAcceptVisitor.executor": "Run",
-    "JUnit.TextedShapeTest.testCompoundShapeInTextedShapeWithAdd.executor": "Debug",
-    "JUnit.TriangleTest.executor": "Run",
-    "JUnit.TwoDimensionalVectorTest.executor": "Run",
-    "JUnit.TwoDimensionalVectorTest.testTwoDimensionalVectorSubtract.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.CircleTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ColoredShapeTest.GPTtest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ColoredShapeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ColoredShapeTest.testAcceptVisitorForColoredCompoundShape.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ColoredShapeTest.testColoredShapeCompoundShape.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ColoredShapeTest.testCompoundShapeInColoredShape.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ColoredShapeTest.testCompoundShapeInColoredShapeWithAdd.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ColoredShapeTest.testCompoundShapeWithMultipleColoredShapes.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ColoredShapeTest.testGetAreaAndPerimeter.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ColoredShapeTest.testGetColor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ColoredShapeTest.testGetShape.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ColoredShapeTest.testIterator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompoundShapeTest.TestCompoundShapeArea.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompoundShapeTest.TestCompoundShapePerimeter.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompoundShapeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompoundShapeTest.testCompoundShapeIterator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConvexPolygonTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindShapeVisitorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindShapeVisitorTest.testFindShapeInComplexShape.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindShapeVisitorTest.testFindShapeWithAreaEquals.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FindShapeVisitorTest.testVisitComplexShape.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.NullIteratorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PrettyPrintVisitorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintCircle.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeBlue.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeGreen.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintColoredShapeRed.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintCompoundShape.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintConvexPolygon.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintEmptyCompoundShape.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintRectangle.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PrettyPrintVisitorTest.testPrettyPrintTextedShape.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RectangleTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ShapeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ShapeTest.testShapeException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ShapeTest.testShapeNullIterator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SortTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SortTest.testByAreaAscending.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TextedShapeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TextedShapeTest.testAcceptVisitor.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TextedShapeTest.testCompoundShapeInTextedShapeWithAdd.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TriangleTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TwoDimensionalVectorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TwoDimensionalVectorTest.testTwoDimensionalVectorSubtract.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.ntut.posd2024f.shapes" />

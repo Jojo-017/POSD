@@ -9,4 +9,6 @@ public interface Visitor<T> {
     public void visitTextedShape(TextedShape textedShape);
     public void visitColoredShape(ColoredShape coloredShape);
     public T getResult();
+
+
 }
